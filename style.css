@@ -2,23 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-image: linear-gradient(to right, #1E1E1E 50%, #F42424 50%);
     width: 100%;
 }
 
-main{
+main {
     padding-left: 80px;
-    padding-right: 80px; 
+    padding-right: 80px;
 }
 
-header{
+header {
     display: flex;
     height: 10vh;
     padding-top: 10px;
@@ -30,12 +30,12 @@ header{
     overflow: hidden;
 }
 
-nav{
+nav {
     display: flex;
     gap: 40px;
 }
 
-nav a{
+nav a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
@@ -43,17 +43,17 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     opacity: 60%;
     transition: 0.6s;
 }
 
-.logoCoca{
+.logoCoca {
     width: 20vh;
 }
 
 footer {
-  
+
     display: flex;
     height: 10vh;
     padding-top: 10px;
@@ -68,24 +68,51 @@ footer {
     justify-content: space-between;
 }
 
-.parte-logo{
+.parte-logo {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.redes{
+.redes {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.redes img:hover{
+.redes img:hover {
     width: 30px;
     transition: 0.6s;
     opacity: 90%;
 }
 
-footer p{
+footer p {
     font-size: 12px;
+}
+
+/* página inicial */
+.sec-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.frase1 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.frase2 {
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.coke {
+    width: 38vh;
+    margin: 0 auto;
 }

@@ -26,8 +26,8 @@ header {
     height: 10vh;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5.85vw;
+    padding-right: 5.85vw;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -58,8 +58,8 @@ nav a:hover {
 }
 
 main {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5.85vw;
+    padding-right: 5.85vw;
 }
 
 footer {
@@ -67,8 +67,8 @@ footer {
     height: 10vh;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5.85vw;
+    padding-right: 5.85vw;
     align-items: center;
     color: white;
     text-transform: uppercase;
@@ -147,4 +147,101 @@ footer p {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
+}
+/* fim página inicial */
+
+/* página sobre */
+
+.section-img{
+    margin-left: -5.85vw;
+    margin-right: -5.85vw;
+    height: 26.13vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-img img{
+    width: 100%;
+    margin-top: -21.22vw;
+}
+
+.sobre{   
+    margin-left: -5.85vw;
+    margin-right: -5.85vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3.66vw;
+    padding-bottom: 3.66vw;
+    padding-left: 5.85vw;
+    padding-right: 5.85vw;
+    gap:6.58vw;
+}
+
+.sobre img{
+    width: 39.16vw;
+}
+
+.sobre h1{
+    font-size: 6.29vw;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sobre p{
+    font-size: 1.39vw;
+    font-weight: 500;
+    line-height: 2.34vw;
+}
+
+.cont-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3.66vw;
+    padding-bottom: 3.66vw;
+    gap: 2.04vw;
+}
+
+.cont-sobre p{
+    color: white;
+}
+
+.cont-sobre img{
+    width: 51.14vw;
+}
+
+.area-texto2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.20vw;
+}
+
+.text-strong{
+    font-size: 2.34vw;
+    font-weight: 700;
+    line-height: 2.34vw;
+}
+
+.cont-text{
+    font-size:  1.31vw;
+    font-weight: 500;
+    line-height: 2.34vw;
+}
+
+.link-produto{
+    text-decoration: none;
+    color: white;
+    font-size: 1.46vw;
+    font-weight: 800;
+}
+
+.link-produto img{
+    width: 0.90vw;
 }

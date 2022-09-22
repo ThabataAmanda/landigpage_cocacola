@@ -2,20 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+/* estilos gerais */
 * {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-image: linear-gradient(to right, #1E1E1E 50%, #F42424 50%);
-    width: 100%;
+html{
+    height: 100%;
+    min-height: 100%;
 }
 
-main {
-    padding-left: 80px;
-    padding-right: 80px;
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #1E1E1E 50%, #F42424 50%);
+    min-height: 100%;
 }
 
 header {
@@ -30,6 +33,10 @@ header {
     overflow: hidden;
 }
 
+.logoCoca {
+    width: 9.15vw;
+}
+
 nav {
     display: flex;
     gap: 40px;
@@ -41,19 +48,21 @@ nav a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 1.17vw;
 }
 
 nav a:hover {
-    opacity: 60%;
+    opacity: 90%;
+    transform: scale(1.1);
     transition: 0.6s;
 }
 
-.logoCoca {
-    width: 20vh;
+main {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 footer {
-
     display: flex;
     height: 10vh;
     padding-top: 10px;
@@ -66,6 +75,7 @@ footer {
     font-weight: 700;
     overflow: hidden;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .parte-logo {
@@ -80,15 +90,19 @@ footer {
     align-items: center;
 }
 
+.redes img{
+    width: 1.83vw;
+}
 .redes img:hover {
-    width: 30px;
+    transform: scale(1.1);
     transition: 0.6s;
     opacity: 90%;
 }
 
 footer p {
-    font-size: 12px;
+    font-size:  0.73vw;
 }
+/* fim estilos gerais */
 
 /* página inicial */
 .sec-inicio {
@@ -101,18 +115,36 @@ footer p {
 .frase1 {
     color: white;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.92vw;
     text-transform: uppercase;
 }
 
 .frase2 {
     color: #1E1E1E;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3.51vw;
     text-transform: uppercase;
 }
 
 .coke {
-    width: 38vh;
+    width: 17.42vw;
     margin: 0 auto;
+}
+
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.7s ease-in-out infinite alternate both;
+    animation: slide-bottom 0.7s ease-in-out infinite alternate both;
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
 }

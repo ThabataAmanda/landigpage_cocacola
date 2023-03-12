@@ -1,11 +1,11 @@
 # landigpage_cocacola
-Projeto pensando e criado para portifólio profissional. 
+Projeto pensando e criado para portfólio profissional. 
 <br>
 <br>
 ![capa coca](https://user-images.githubusercontent.com/63726379/224448033-dad1db7d-7cb8-4198-8d37-c83d3894c468.png)
 <br>
 <br>
-Pensando em criar um projeto pra portifolio, criei uma landing page de uma marca que gosto e consumo muito. 
+Pensando em criar um projeto pra portfólio, criei uma landing page de uma marca que gosto e consumo muito. 
 Antes de codificar criei a interface dela no figma.
 
 # 🚀 Tecnologias
